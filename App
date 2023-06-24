@@ -1,0 +1,15 @@
+import React from 'react';
+      import ReactDOM from 'react-dom';
+      import {Form, Input, Button} from 'antd';
+
+      const App = () => {
+        return (
+          <main>
+          <h1 className="title"> Login Box </h1>
+
+          <LoginBox/>
+          </main>
+        );
+      }
+      ReactDOM.render(<App />, document.getElementById('root'));
+    
